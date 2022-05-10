@@ -6,7 +6,6 @@ Entrez.email = "ncastellanos21@ilg.cat"  # Always tell NCBI who you are
 # NM_001354619.2
 # NM_001324522.1
 
-
 with open("resultatexemple.txt", "w") as fitxer:
     handle = Entrez.efetch(db="nucleotide", id="NM_001354619.2,NM_001324522.1", rettype="gb", retmode="text")
 
